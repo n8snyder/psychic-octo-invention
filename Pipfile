@@ -5,11 +5,11 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
-black = "*"
+black = "==19.3b0"
 
 [packages]
-flask = "*"
-gunicorn = "*"
+flask = "==1.0.2"
+gunicorn = "==19.9.0"
 
 [requires]
 python_version = "3.7"
