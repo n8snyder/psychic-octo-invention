@@ -10,6 +10,7 @@ black = "==19.3b0"
 [packages]
 flask = "==1.0.2"
 gunicorn = "==19.9.0"
+sentry-sdk = {extras = ["flask"],version = "==0.10.2"}
 
 [requires]
 python_version = "3.7"
